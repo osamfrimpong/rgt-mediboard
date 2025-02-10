@@ -18,7 +18,6 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
         visualDensity: VisualDensity.adaptivePlatformDensity,
-        textTheme: GoogleFonts.interTextTheme(),
         scaffoldBackgroundColor: Colors.grey[100],
       ),
       home: const HomePage(),
